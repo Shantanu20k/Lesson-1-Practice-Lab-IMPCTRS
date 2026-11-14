@@ -1,0 +1,21 @@
+Lesson 1 · E1 Hello, you · Python
+Name: Shantanu
+Result: 3/3 checks pass
+```python
+print("Hello, world!")
+# Add two more lines below
+name = "Priya"
+City = "Pune"
+print("My name is", name)
+print("I live in", City)
+```
+
+
+# Only the code below
+print("Hello, world!")
+# Add two more lines below
+name = "Priya"
+City = "Pune"
+
+print("My name is", name)
+print("I live in", City)

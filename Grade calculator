@@ -1,0 +1,29 @@
+Lesson 1 · E3 Grade calculator · Python
+Name: Shantanu
+Result: 7/7 checks pass
+```python
+marks = 78
+# Use if / elif / else to print the grade
+if marks >= 90:
+    print("Grade: A")
+elif marks >= 75:
+    print("Grade: B")
+elif marks >= 50:
+    print("Grade: C")
+else:
+    print("Grade: F")
+```
+
+
+
+# Only the code 
+marks = 78
+# Use if / elif / else to print the grade
+if marks >= 90:
+    print("Grade: A")
+elif marks >= 75:
+    print("Grade: B")
+elif marks >= 50:
+    print("Grade: C")
+else:
+    print("Grade: F")

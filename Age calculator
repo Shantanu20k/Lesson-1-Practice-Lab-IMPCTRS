@@ -1,0 +1,20 @@
+Lesson 1 · E2 Age calculator · Python
+Name: Shantanu
+Result: 2/2 checks pass
+```python
+birth_year = 2004
+# 1. Make a variable called age: 2026 minus birth_year
+# 2. Print: You are 22 years old
+current_year=2026
+age=current_year-birth_year
+print(f"You are {age} years old")
+```
+
+
+# Only the code
+birth_year = 2004
+# 1. Make a variable called age: 2026 minus birth_year
+# 2. Print: You are 22 years old
+current_year=2026
+age=current_year-birth_year
+print(f"You are {age} years old")

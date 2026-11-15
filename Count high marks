@@ -1,0 +1,25 @@
+Lesson 1 · E5 Count high marks · Python
+Name: Shantanu
+Result: 3/3 checks pass
+```python
+marks = [72, 85, 90, 64, 88, 79]
+count = 0
+# Loop over marks; add 1 to count when a mark is 80 or more
+count = 0
+for mark in marks:
+    if mark >= 80:
+        count = count+1
+print(count)
+```
+
+
+
+# Only the code 
+marks = [72, 85, 90, 64, 88, 79]
+count = 0
+# Loop over marks; add 1 to count when a mark is 80 or more
+count = 0
+for mark in marks:
+    if mark >= 80:
+        count = count+1
+print(count)

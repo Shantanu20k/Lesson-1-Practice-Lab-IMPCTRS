@@ -1,0 +1,25 @@
+Lesson 1 · E7 Is it in the list? · Python
+Name: Shantanu
+Result: 5/5 checks pass
+```python
+def contains(items, target):
+    # check each item; return True as soon as you find target
+    for item in items:
+        if item == target:
+            return True
+    return False
+
+print(contains(["Asha", "Ravi", "Meena"], "Ravi"))
+```
+
+
+
+# Only the code 
+def contains(items, target):
+    # check each item; return True as soon as you find target
+    for item in items:
+        if item == target:
+            return True
+    return False
+
+print(contains(["Asha", "Ravi", "Meena"], "Ravi"))

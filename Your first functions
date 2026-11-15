@@ -1,0 +1,38 @@
+Lesson 1 · E6 Your first functions · Python
+Name: Shantanu
+Result: 6/6 checks pass
+```python
+def is_even(n):
+    # return True if n is even, otherwise False
+    return n % 2 == 0
+
+def largest(nums):
+    # return the biggest number in the list
+    max_val = nums[0]
+    for num in nums:
+        if num > max_val:
+            max_val = num
+    return max_val
+
+print(is_even(4))
+print(largest([3, 9, 2]))
+```
+
+
+
+
+# Only the code
+def is_even(n):
+    # return True if n is even, otherwise False
+    return n % 2 == 0
+
+def largest(nums):
+    # return the biggest number in the list
+    max_val = nums[0]
+    for num in nums:
+        if num > max_val:
+            max_val = num
+    return max_val
+
+print(is_even(4))
+print(largest([3, 9, 2]))

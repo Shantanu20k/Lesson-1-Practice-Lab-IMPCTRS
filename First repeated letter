@@ -1,0 +1,28 @@
+Lesson 1 · E8 First repeated letter · Python
+Name: Shantanu
+Result: 5/5 checks pass
+```python
+def first_repeat(word):
+    seen = set()
+    # for each letter: if it is in seen, return it; otherwise add it
+    for char in word:
+        if char in seen:
+            return char
+        seen.add(char)
+    return None
+
+print(first_repeat("programming"))
+```
+
+
+# Only the code 
+def first_repeat(word):
+    seen = set()
+    # for each letter: if it is in seen, return it; otherwise add it
+    for char in word:
+        if char in seen:
+            return char
+        seen.add(char)
+    return None
+
+print(first_repeat("programming"))
